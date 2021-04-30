@@ -4,13 +4,9 @@
 @import './utils/mixins.scss';
 
 body {
-
-    // body styles
-
+    font-size: 16px;
 }
 
 .container {
-
-    // container styles
-
+    max-width: 100%;
 }
