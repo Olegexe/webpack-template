@@ -67,6 +67,14 @@ module.exports = {
                         }
                     },
                     'css-loader',
+                    {
+                        loader: 'postcss-loader',
+                        options: {
+                            postcssOptions: {
+                                config: path.resolve(__dirname, 'src/assets/js/config/postcss.config.js')
+                            }
+                        }
+                    },
                     'sass-loader'
                 ]
             },
