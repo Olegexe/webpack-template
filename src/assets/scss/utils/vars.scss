@@ -2,20 +2,30 @@
 $default-font: montserrat-regular, sans-serif;
 $default-bold-font: montserrat-bold, sans-serif;
 
-
 //Colors
-$darkShade100: #1F2041;
-$darkShade75: rgba($darkShade100, .75);
-$darkShade50: rgba($darkShade100, .50);
-$darkShade25: rgba($darkShade100, .25);
-$darkShade10: rgba($darkShade100, .10);
-$darkShade5: rgba($darkShade100, .5);
-$purple: #BC9CFF;
-$green: #6FCF97;
+$darkShade100: #1f2041;
+$darkShade75: rgba($darkShade100, 0.75);
+$darkShade50: rgba($darkShade100, 0.5);
+$darkShade25: rgba($darkShade100, 0.25);
+$darkShade10: rgba($darkShade100, 0.1);
+$darkShade5: rgba($darkShade100, 0.5);
+$purple: #bc9cff;
+$green: #6fcf97;
 
-$cosmos: linear-gradient(180deg, $purple 0%, #8BA4F9 100%);
-$green-blue: linear-gradient(180deg, $green 0%, #66D2EA 100%);
+$cosmos: linear-gradient(180deg, $purple 0%, #8ba4f9 100%);
+$green-blue: linear-gradient(180deg, $green 0%, #66d2ea 100%);
 
 //Size
 
 $containerWidth: 1200px;
+
+//Breakpoints
+
+$grid-breakpoints: (
+   xs: 0,
+   sm: 576px,
+   md: 768px,
+   lg: 992px,
+   xl: 1200px,
+   xxl: 1400px,
+);
